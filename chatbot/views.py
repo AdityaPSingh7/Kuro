@@ -4,7 +4,7 @@
 # from django.views.decorators.csrf import csrf_exempt
 
 # # Replace this with your actual OpenAI API key
-# OPENAI_API_KEY = "sk-vBpG05CoLJ6RrZRlE_BWXVyO2yCHAF387bmug8AHAbT3BlbkFJNRLjaXq0Y1sQXH1lpniR-ONrSv6vR4CHsB4pwcb3MA"
+# OPENAI_API_KEY = "sk-################"
 # openai.api_key = OPENAI_API_KEY
 
 # # Store session-specific conversation history
@@ -70,7 +70,7 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
 # Replace with your OpenAI API key
-OPENAI_API_KEY = "sk-vBpG05CoLJ6RrZRlE_BWXVyO2yCHAF387bmug8AHAbT3BlbkFJNRLjaXq0Y1sQXH1lpniR-ONrSv6vR4CHsB4pwcb3MA"
+OPENAI_API_KEY = "sk-#####################################################"
 openai.api_key = OPENAI_API_KEY
 
 @csrf_exempt
